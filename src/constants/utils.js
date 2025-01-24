@@ -48,14 +48,14 @@ const pengurus = [
   {
     id: 5,
     name: 'Departemen Ekonomi Kreatif',
-    icon: '/assets/ekraf.png',
+    icon: '../assets/ekraf.png',
     description:
       'Departemen yang bertanggung jawab dalam pencarian dana untuk dapat membantu keuangan dalam kinerja BEM FMIKOM',
   },
   {
     id: 6,
     name: 'Departemen Pers',
-    icon: '/assets/pers.png',
+    icon: '/src/assets/pers.png',
     description:
       'Departemen yang mengatur dan mengelola seluruh asset kekayaan digital di FMIKOM',
   },
