@@ -1,3 +1,4 @@
+import bphIcon from './../assets/bph.png';
 const navigasi = [
   {
     title: 'Home',
@@ -21,7 +22,7 @@ const pengurus = [
   {
     id: 1,
     name: 'BPH',
-    icon: '/assets/bph.png',
+    icon: bphIcon,
     description:
       'BPH terdiri atas Gubernur BEM, Wakil Gubernur, Sekertaris, dan Bendahara',
   },
@@ -55,7 +56,7 @@ const pengurus = [
   {
     id: 6,
     name: 'Departemen Pers',
-    icon: '/src/assets/pers.png',
+    icon: '../../src/assets/pers.png',
     description:
       'Departemen yang mengatur dan mengelola seluruh asset kekayaan digital di FMIKOM',
   },
