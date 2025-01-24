@@ -1,0 +1,81 @@
+.pengurus-home {
+  width: 100%;
+  height: auto;
+  background-color: #fac614;
+}
+.pengurus-home .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.pengurus-home .title h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.pengurus-home .title p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.pengurus-home .pengurus-home_content {
+  padding: 0 20px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pengurus-home .pengurus-home_content .departement-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.pengurus-home .pengurus-home_content .departement {
+  max-width: 500px;
+  min-width: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pengurus-home .pengurus-home_content .departement:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.pengurus-home .pengurus-home_content .departement .icon {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pengurus-home .pengurus-home_content .departement .text {
+  flex: 1;
+}
+
+.pengurus-home .pengurus-home_content .departement .text h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.pengurus-home .pengurus-home_content .departement .text p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}

@@ -1,0 +1,141 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+nav .nav-1 {
+  padding: 5px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #919191;
+}
+nav .nav-1 .email {
+  color: #dbd3d3;
+  font-size: 14px;
+  font-weight: 400;
+}
+nav .nav-1 .lang span,
+nav .nav-1 .lang {
+  color: #dbd3d3;
+  font-weight: 400;
+}
+nav .nav-1 .lang span {
+  cursor: pointer;
+}
+nav .nav-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 4%;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+nav .logo .title {
+  padding-left: 7px;
+  border-left: solid 3px #fac614;
+}
+nav .logo .title-1 {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+}
+nav .logo .title-2 {
+  color: #fac614;
+  font-size: 14px;
+  font-weight: 700;
+}
+.hamburger {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+nav .menu_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav .menu_container .menu {
+  position: relative;
+}
+nav .menu_container .menu .menu_title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #dbd3d3;
+}
+nav .menu_container .menu .underline {
+  position: absolute;
+  height: 3px;
+  background: #fac614;
+  bottom: -6px;
+  left: -4px;
+  right: -4px;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+nav .mobile-menu {
+  display: none;
+  z-index: 10;
+}
+
+nav .bg {
+  background-color: #fff;
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  top: 10px;
+  right: 1px;
+  z-index: 99;
+  display: none;
+}
+nav .bg .menu-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 16px;
+  z-index: 999;
+}
+nav .bg .menu-container .menu-item p {
+  color: #dbd3d3;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  nav .nav-1 .lang {
+    font-size: 16px;
+  }
+  nav .nav-2 .title-1 {
+    font-size: 8px;
+  }
+  nav .nav-2 .title-2 {
+    font-size: 12px;
+  }
+  nav .nav-2 img {
+    width: 50px;
+    height: 50px;
+  }
+  nav .nav-2 .menu_container {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  nav .bg {
+    display: flex;
+  }
+}
