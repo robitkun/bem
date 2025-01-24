@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import aboutImage from './../../assets/about-bem.JPG';
 import './About.css';
 
 const AboutHome = () => {
@@ -43,11 +44,7 @@ const AboutHome = () => {
     >
       <motion.h1 variants={itemVariants}>APA ITU BEM FMIKOM?</motion.h1>
       <div className="about-content">
-        <motion.img
-          src="/src/assets/about-bem.JPG"
-          alt="WOYY"
-          variants={itemVariants}
-        />
+        <motion.img src={aboutImage} alt="WOYY" variants={itemVariants} />
         <motion.div className="about-text" variants={itemVariants}>
           <p>
             Badan Eksekutif Mahasiswa Fakultas Matematika dan Ilmu Komputer (BEM

@@ -47,15 +47,13 @@ const Hero = () => {
         animate={controls}
         variants={containerVariants}
       >
-        {/* Modern Image Animation */}
         <motion.img
-          src="/public/bg-1.jpeg"
+          src="/bg-1.jpeg"
           alt="background-1"
           className="hero_image"
           variants={imageVariants}
         />
 
-        {/* Modern Text Animation */}
         <motion.div
           className="content_text"
           initial="hidden"
