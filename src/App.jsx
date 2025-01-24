@@ -2,7 +2,7 @@ import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import HomePages from './pages/HomePages/HomePages';
-import AboutPage from './pages/AboutPage/AboutPAge';
+import AboutPage from './pages/AboutPage/AboutPage';
 import DepartementPage from './pages/DepartementPage/DepartementPage';
 import EventPage from './pages/EventPage/EventPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
