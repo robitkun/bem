@@ -57,7 +57,7 @@ const Navbar = () => {
       >
         <Link to="/" className="logo">
           <img
-            src="/public/logobemfmikom.png"
+            src="/logobemfmikom.png"
             alt="LogoBEMFMIKOM"
             width={60}
             height={60}
