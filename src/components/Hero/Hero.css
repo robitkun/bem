@@ -53,7 +53,6 @@
 }
 @media only screen and (max-width: 450px) {
   .hero_container .hero_content .content_text p {
-    width: 400px;
     display: inline-block;
   }
   .hero_container .hero_content {
