@@ -1,0 +1,103 @@
+.proker {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.proker h1 {
+  text-align: start;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.proker p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+.swiper-container {
+  width: 100%;
+}
+.yew {
+  padding: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+  width: 100%;
+  max-width: 450px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.card .card-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card .card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.card .card-text h1 {
+  font-size: 20px;
+  color: #222;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card .card-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.cta-link {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.cta-link span {
+  margin-right: 8px;
+}
+
+.cta-link:hover {
+  color: #ff5722;
+}
+
+.swiper-pagination-bullet {
+  background-color: #333;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fac614;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fac614;
+}
+.swiper-pagination {
+  position: absolute;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ff5722;
+}

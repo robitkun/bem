@@ -8,20 +8,13 @@ const PengurusHome = () => {
   const isInView = useInView(pengurusRef, { once: true });
 
   const containerVariants = {
+    hidden: {},
     visible: {
       transition: { staggerChildren: 0.2, delayChildren: 0.3 },
     },
-    hidden: {},
   };
 
   const itemVariants = {
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        y: { stiffness: 1000, velocity: -100 },
-      },
-    },
     hidden: {
       y: 50,
       opacity: 0,
@@ -29,16 +22,35 @@ const PengurusHome = () => {
         y: { stiffness: 1000 },
       },
     },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        y: { stiffness: 1000, velocity: -100 },
+      },
+    },
   };
 
   return (
     <div className="pengurus-home">
       <div className="title">
-        <h1>PENGURUS BEM FMIKOM</h1>
-        <p>
+        <motion.h1
+          className="h1"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          PENGURUS BEM FMIKOM
+        </motion.h1>
+        <motion.p
+          className="p"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           Pengurus BEM FMIKOM terdiri dari BPH dan beberapa Departement yang
           memiliki tugas dan tanggung jawab masing-masing
-        </p>
+        </motion.p>
       </div>
       <div className="pengurus-home_content" ref={pengurusRef}>
         <AnimatePresence>
@@ -54,10 +66,29 @@ const PengurusHome = () => {
                 className="departement"
                 variants={itemVariants}
               >
-                <img src={el.icon} alt={el.icon} className="icon" />
+                <motion.img
+                  src={el.icon}
+                  alt={el.icon}
+                  className="icon"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.6, delay: 0.4 }}
+                />
                 <div className="text">
-                  <h2>{el.name}</h2>
-                  <p>{el.description}</p>
+                  <motion.h2
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                  >
+                    {el.name}
+                  </motion.h2>
+                  <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                  >
+                    {el.description}
+                  </motion.p>
                 </div>
               </motion.div>
             ))}

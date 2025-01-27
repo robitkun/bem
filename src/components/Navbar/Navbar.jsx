@@ -25,7 +25,7 @@ const Navbar = () => {
       <AnimatePresence mode="popLayout">
         {visible && (
           <motion.div
-            nitial={{ y: 0, opacity: 1 }}
+            initial={{ y: 0, opacity: 1 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -100, opacity: 0 }}
             transition={{
@@ -55,24 +55,32 @@ const Navbar = () => {
         transition={{ duration: 0.25 }}
         layout
       >
-        <Link to="/" className="logo">
-          <img
-            src="/logobemfmikom.png"
-            alt="LogoBEMFMIKOM"
-            width={60}
-            height={60}
-          />
-          <div className="title">
-            <h3 className="title-1">
-              BADAN EKSEKUTIF <br />
-              MAHASISWA
-            </h3>
-            <h3 className="title-2">
-              FAKULTAS MATEMATIKA <br />
-              DAN ILMU KOMPUTER
-            </h3>
-          </div>
-        </Link>
+        <motion.div
+          initial={{ scale: 1.1 }}
+          animate={{
+            scale: !visible ? 1 : 1.1,
+          }}
+          transition={{ duration: 0.3, ease: 'linear' }}
+        >
+          <Link to="/" className="logo">
+            <img
+              src="/logobemfmikom.png"
+              alt="LogoBEMFMIKOM"
+              width={60}
+              height={60}
+            />
+            <div className="title">
+              <h3 className="title-1">
+                BADAN EKSEKUTIF <br />
+                MAHASISWA
+              </h3>
+              <h3 className="title-2">
+                FAKULTAS MATEMATIKA <br />
+                DAN ILMU KOMPUTER
+              </h3>
+            </div>
+          </Link>
+        </motion.div>
         <div className="menu_container">
           {navigasi.map((el, index) => {
             return (

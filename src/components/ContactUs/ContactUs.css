@@ -1,0 +1,52 @@
+.contact-us {
+  width: 100%;
+  padding: 20px;
+}
+.contact-us h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contact-us form {
+  width: 450px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.contact-us .form-group {
+  margin-bottom: 15px;
+}
+.contact-us .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+.contact-us input,
+.contact-us textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.contact-us textarea {
+  resize: none;
+}
+.contact-us .send {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contact-us .send:hover {
+  background-color: #222;
+}
