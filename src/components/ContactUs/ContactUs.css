@@ -50,3 +50,8 @@
 .contact-us .send:hover {
   background-color: #222;
 }
+@media only screen and (max-width: 500px) {
+  .contact-us form {
+    width: 350px;
+  }
+}
