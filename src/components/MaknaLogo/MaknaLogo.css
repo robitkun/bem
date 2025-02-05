@@ -1,0 +1,24 @@
+.makna-logo {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+.makna-logo h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.makna-logo .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.makna-logo .content img {
+  margin-bottom: 20px;
+  width: 100%;
+  flex: 1;
+}
+.makna-logo .content .timeline-makna {
+  flex: 1;
+}

@@ -9,31 +9,53 @@ const AboutHome = () => {
   const inView = useInView(ref, { once: true, treshold: 1 });
   const containerVariants = {
     hidden: {},
-    visible: {
-      transition: { staggerChildren: 0.2, delayChildren: 0.3 },
-    },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.3,
+        duration: 0.8,
+        ease: 'easeInOut',
+      },
+    }),
   };
   const imageVariants = {
     hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1 } },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.3,
+        duration: 0.8,
+        ease: 'easeInOut',
+      },
+    }),
   };
 
   const tagVariants = {
     hidden: { scale: 0, opacity: 0 },
-    visible: {
-      x: 0,
+    visible: (i) => ({
       opacity: 1,
-      scale: 1.1,
+      y: 0,
       transition: {
+        delay: i * 0.3,
         duration: 0.8,
-        scale: { type: 'spring', visualDuration: 0.4, bounce: 0.5 },
+        ease: 'easeInOut',
       },
-    },
+    }),
   };
 
   const textVariants = {
     hidden: { y: 50, opacity: 0 },
-    visible: { y: 0, opacity: 1, transition: { duration: 1 } },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.3,
+        duration: 0.8,
+        ease: 'easeInOut',
+      },
+    }),
   };
 
   return (
@@ -46,12 +68,14 @@ const AboutHome = () => {
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
         variants={containerVariants}
+        custom={0}
       >
         <div className="content_img">
           <motion.div
             initial="hidden"
             animate={inView ? 'visible' : 'hidden'}
             variants={imageVariants}
+            custom={1}
           >
             <img src={aboutImage} alt="about" />
             <div className="shape"></div>
@@ -61,6 +85,7 @@ const AboutHome = () => {
             initial="hidden"
             animate={inView ? 'visible' : 'hidden'}
             variants={tagVariants}
+            custom={2}
           >
             <h3>
               2024 <br /> BEM FMIKOM
@@ -73,6 +98,7 @@ const AboutHome = () => {
           initial="hidden"
           animate={inView ? 'visible' : 'hidden'}
           variants={textVariants}
+          custom={3}
         >
           <p>
             Badan Eksekutif Mahasiswa Fakultas Matematika dan Ilmu Komputer (BEM

@@ -1,6 +1,5 @@
 .about-page {
   width: 100%;
-  height: 100vh;
   padding-top: 100px;
 }
 
@@ -13,7 +12,30 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  background: url('/src/assets/about-bem.JPG');
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-.about-page .section-about h1 {
+.about-page .section-about .bg-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+}
+
+.about-page .section-about .content {
   margin-bottom: 20px;
+  z-index: 90;
+}
+.about-page .section-about .content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.about-page .section-about .content p {
+  font-size: 20px;
+  font-weight: 500;
 }
