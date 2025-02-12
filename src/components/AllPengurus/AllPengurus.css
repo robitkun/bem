@@ -1,0 +1,47 @@
+.pengurus {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.team-container {
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+  text-align: center;
+}
+
+.member-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.member-card {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Atur lebar card */
+}
+
+.leader-card {
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Lebar lebih besar dari member biasa */
+  margin: 0 auto; /* Biar posisinya di tengah */
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
