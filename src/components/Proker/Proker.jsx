@@ -50,10 +50,11 @@ const Proker = () => {
                 <div className="card-text">
                   <h1>{el.nama}</h1>
                   <p>
-                    {el.deskripsi} Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Nesciunt delectus quae eos maiores aliquam
-                    sequi, itaque eum tenetur ad vel?
+                    {el.deskripsi.length > 250
+                      ? el.deskripsi.slice(0, 250) + '...'
+                      : el.deskripsi}
                   </p>
+
                   <Link className="cta-link" to={`/program-kerja/${el.id}`}>
                     <span>Lihat Detail</span>
                     <HiArrowSmRight />

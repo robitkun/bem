@@ -73,7 +73,8 @@ const programKerja = [
   {
     id: 101,
     nama: 'Belajar Bareng BEM FMIKOM',
-    deskripsi: 'Belajar Node MCU, Arduino, dan Flutter',
+    deskripsi:
+      'Sebuah program pelatihan dan workshop yang bertujuan untuk meningkatkan pemahaman mahasiswa dalam bidang teknologi, khususnya dalam penggunaan NodeMCU, Arduino, dan Flutter. Kegiatan ini memberikan kesempatan bagi mahasiswa untuk mempelajari konsep dasar hingga implementasi dalam proyek berbasis IoT dan pengembangan aplikasi mobile. Selain itu, peserta juga diberikan sesi praktik langsung dengan bimbingan dari mentor yang berpengalaman.',
     status: 'Selesai',
     kategori: 'Teknologi',
     img_dokumentasi:
@@ -82,7 +83,8 @@ const programKerja = [
   {
     id: 102,
     nama: 'Pengelolaan Website',
-    deskripsi: 'Meredesain website BEM FMIKOM',
+    deskripsi:
+      'Program ini bertujuan untuk meredesain dan mengelola website BEM FMIKOM agar lebih modern, responsif, dan mudah diakses oleh mahasiswa. Dalam program ini, tim yang bertanggung jawab akan melakukan analisis kebutuhan website, memperbaiki tampilan UI/UX, serta menambahkan fitur-fitur baru agar website dapat menjadi pusat informasi yang lebih interaktif dan informatif bagi mahasiswa FMIKOM.',
     status: 'Sedang Berlangsung',
     kategori: 'Teknologi',
     img_dokumentasi:
@@ -91,7 +93,8 @@ const programKerja = [
   {
     id: 103,
     nama: 'Expo Teknologi',
-    deskripsi: 'Mengadakan expo untuk mengenalkan teknologi',
+    deskripsi:
+      'Sebuah acara tahunan yang mempertemukan mahasiswa dengan berbagai inovasi dan perkembangan terbaru di dunia teknologi. Dalam Expo Teknologi ini, akan ada demonstrasi perangkat IoT, pemaparan teknologi terbaru, serta showcase proyek-proyek mahasiswa yang berkaitan dengan bidang teknologi. Acara ini bertujuan untuk memberikan wawasan yang lebih luas tentang perkembangan teknologi serta memotivasi mahasiswa untuk terus berinovasi.',
     status: 'Selesai',
     kategori: 'Teknologi',
     img_dokumentasi: pelantikan,
@@ -99,7 +102,8 @@ const programKerja = [
   {
     id: 201,
     nama: 'Pelantikan',
-    deskripsi: 'Melaksanakan pelantikan kepengurusan',
+    deskripsi:
+      'Acara resmi yang menjadi awal dari masa kepengurusan BEM FMIKOM. Pelantikan ini bertujuan untuk meresmikan kepengurusan baru, memperkenalkan struktur organisasi, serta memberikan pemahaman tentang visi dan misi yang akan dijalankan dalam satu periode kepengurusan. Kegiatan ini juga menjadi momen penting untuk memperkuat komitmen setiap anggota dalam menjalankan tugas dan tanggung jawabnya.',
     status: 'Selesai',
     kategori: 'Gubernur dan Wakil',
     img_dokumentasi: pelantikan,
@@ -107,7 +111,8 @@ const programKerja = [
   {
     id: 202,
     nama: 'Rapat Kerja (Raker)',
-    deskripsi: 'Menyusun rencana kerja satu periode',
+    deskripsi:
+      'Rapat kerja merupakan agenda penting dalam organisasi yang dilakukan untuk menyusun rencana strategis dan program kerja BEM selama satu periode. Dalam rapat ini, setiap divisi akan memaparkan program-program unggulannya, mendiskusikan target yang ingin dicapai, serta memastikan adanya sinergi antar bidang dalam menjalankan kegiatan BEM.',
     status: 'Selesai',
     kategori: 'Gubernur dan Wakil',
     img_dokumentasi: pelantikan,
@@ -115,7 +120,8 @@ const programKerja = [
   {
     id: 203,
     nama: 'Rapat Koordinasi',
-    deskripsi: 'Rapat BPH & Divisi',
+    deskripsi:
+      'Sebuah rapat yang dilakukan secara berkala oleh Badan Pengurus Harian (BPH) dan seluruh departemen untuk memastikan program kerja berjalan sesuai dengan rencana. Rapat ini juga digunakan untuk mengevaluasi progres kegiatan, menyelesaikan kendala yang ada, serta mengkoordinasikan strategi kerja yang lebih efektif agar organisasi dapat berjalan dengan lebih baik.',
     status: 'Sedang Berlangsung',
     kategori: 'Gubernur dan Wakil',
     img_dokumentasi:
@@ -124,7 +130,8 @@ const programKerja = [
   {
     id: 204,
     nama: 'Diskusi Mengenai BEM',
-    deskripsi: 'Diskusi tentang urgensi dan peran BEM',
+    deskripsi:
+      'Forum diskusi yang bertujuan untuk menganalisis urgensi dan peran BEM dalam dunia kemahasiswaan. Diskusi ini akan membahas bagaimana peran BEM dalam memperjuangkan aspirasi mahasiswa, memperkuat sistem organisasi, serta memberikan dampak positif bagi lingkungan kampus. Melalui diskusi ini, diharapkan muncul gagasan-gagasan baru yang dapat meningkatkan efektivitas peran BEM.',
     status: 'Dalam Perencanaan',
     kategori: 'Gubernur dan Wakil',
     img_dokumentasi: pelantikan,
@@ -132,7 +139,8 @@ const programKerja = [
   {
     id: 205,
     nama: 'Kotak Aspirasi',
-    deskripsi: 'Menyediakan kotak untuk menerima aspirasi mahasiswa',
+    deskripsi:
+      'Program ini bertujuan untuk memberikan ruang bagi mahasiswa agar dapat menyampaikan kritik, saran, dan aspirasi terkait berbagai permasalahan yang ada di kampus. Kotak aspirasi ini akan dikelola secara transparan, dan setiap masukan akan ditindaklanjuti dengan diskusi serta koordinasi dengan pihak yang terkait agar solusi yang diberikan dapat tepat sasaran.',
     status: 'Dalam Perencanaan',
     kategori: 'Gubernur dan Wakil',
     img_dokumentasi: pelantikan,
@@ -140,7 +148,8 @@ const programKerja = [
   {
     id: 301,
     nama: 'Masterplan Satu Periode',
-    deskripsi: 'Menyusun masterplan untuk satu periode',
+    deskripsi:
+      'Masterplan ini merupakan dokumen perencanaan jangka panjang yang dibuat oleh sekretaris untuk mengatur dan mengarahkan jalannya organisasi selama satu periode kepengurusan. Masterplan ini mencakup visi, misi, strategi kerja, serta indikator keberhasilan yang harus dicapai oleh setiap divisi dalam organisasi.',
     status: 'Selesai',
     kategori: 'Sekretaris',
     img_dokumentasi: pelantikan,
@@ -148,7 +157,8 @@ const programKerja = [
   {
     id: 302,
     nama: 'Pengarsipan Surat & Administrasi',
-    deskripsi: 'Membuat sistem pengarsipan kesekretariatan',
+    deskripsi:
+      'Sebuah sistem yang dirancang untuk mengelola berbagai dokumen administratif organisasi seperti surat masuk, surat keluar, serta dokumen penting lainnya. Dengan adanya sistem pengarsipan yang baik, setiap dokumen dapat diakses dengan mudah dan digunakan sebagai referensi dalam menjalankan program kerja organisasi.',
     status: 'Sedang Berlangsung',
     kategori: 'Sekretaris',
     img_dokumentasi: pelantikan,
@@ -156,7 +166,8 @@ const programKerja = [
   {
     id: 303,
     nama: 'Sosialisasi SOP',
-    deskripsi: 'Memberikan sosialisasi terkait SOP organisasi',
+    deskripsi:
+      'Program ini bertujuan untuk memberikan pemahaman kepada seluruh anggota BEM mengenai Standar Operasional Prosedur (SOP) organisasi. Sosialisasi ini mencakup aturan kerja, mekanisme pelaporan, serta kode etik yang harus dipatuhi oleh setiap anggota dalam menjalankan tugasnya. Dengan adanya SOP yang jelas, diharapkan organisasi dapat berjalan dengan lebih efektif dan profesional.',
     status: 'Selesai',
     kategori: 'Sekretaris',
     img_dokumentasi: pelantikan,
@@ -164,7 +175,8 @@ const programKerja = [
   {
     id: 401,
     nama: 'Pengelolaan Kas',
-    deskripsi: 'Mengelola kas organisasi',
+    deskripsi:
+      'Bendahara bertanggung jawab atas pengelolaan keuangan organisasi, termasuk mencatat setiap pemasukan dan pengeluaran kas. Program ini bertujuan untuk memastikan bahwa anggaran digunakan secara efisien dan sesuai dengan kebutuhan organisasi. Selain itu, laporan keuangan juga akan dibuat secara berkala agar transparansi dalam pengelolaan dana tetap terjaga.',
     status: 'Selesai',
     kategori: 'Bendahara',
     img_dokumentasi: pelantikan,
@@ -172,7 +184,8 @@ const programKerja = [
   {
     id: 402,
     nama: 'Arsip Pemasukan & Pengeluaran',
-    deskripsi: 'Membuat arsip pemasukan dan pengeluaran',
+    deskripsi:
+      'Sebuah sistem pencatatan keuangan yang berfungsi untuk mendokumentasikan setiap transaksi keuangan yang dilakukan oleh organisasi. Dengan adanya arsip yang tertata dengan baik, laporan keuangan dapat dibuat dengan lebih akurat dan dapat dipertanggungjawabkan dalam setiap evaluasi organisasi.',
     status: 'Selesai',
     kategori: 'Bendahara',
     img_dokumentasi: pelantikan,
@@ -180,7 +193,8 @@ const programKerja = [
   {
     id: 501,
     nama: 'Turba dan Halal Bihalal',
-    deskripsi: 'Mengadakan acara turba dan halal bihalal',
+    deskripsi:
+      'Turun ke Bawah (Turba) dan Halal Bihalal adalah program yang bertujuan untuk membangun kedekatan antara pengurus dan anggota BEM, serta mempererat hubungan antar mahasiswa. Kegiatan ini biasanya diisi dengan diskusi ringan, sharing pengalaman, serta momen kebersamaan yang dapat memperkuat solidaritas dalam organisasi.',
     status: 'Selesai',
     kategori: 'Departemen Dalam Negeri',
     img_dokumentasi:
@@ -189,7 +203,8 @@ const programKerja = [
   {
     id: 502,
     nama: 'Makrab',
-    deskripsi: 'Mengadakan malam keakraban',
+    deskripsi:
+      'Kegiatan yang bertujuan untuk membangun hubungan yang lebih erat antar anggota organisasi melalui berbagai kegiatan seru seperti games, diskusi santai, dan sesi motivasi. Makrab ini menjadi wadah untuk memperkuat rasa kebersamaan agar komunikasi dalam organisasi dapat berjalan dengan lebih baik.',
     status: 'Selesai',
     kategori: 'Departemen Dalam Negeri',
     img_dokumentasi: pelantikan,
@@ -197,7 +212,8 @@ const programKerja = [
   {
     id: 503,
     nama: 'Siap Skripsi',
-    deskripsi: 'Mendukung mahasiswa yang akan mengerjakan skripsi',
+    deskripsi:
+      'Program pendampingan bagi mahasiswa yang sedang mempersiapkan skripsi. Dalam program ini, mahasiswa akan mendapatkan bimbingan dari dosen atau alumni yang telah menyelesaikan skripsi mereka. Selain itu, akan ada sesi sharing pengalaman dan strategi dalam menyelesaikan skripsi dengan efektif.',
     status: 'Selesai',
     kategori: 'Departemen Dalam Negeri',
     img_dokumentasi: pelantikan,
@@ -205,7 +221,8 @@ const programKerja = [
   {
     id: 504,
     nama: 'Event Akbar',
-    deskripsi: 'Mengadakan acara besar untuk mahasiswa',
+    deskripsi:
+      'Kegiatan besar yang melibatkan mahasiswa dalam skala luas dengan tujuan untuk meningkatkan partisipasi dan keterlibatan mahasiswa dalam kegiatan organisasi. Event ini bisa berupa seminar nasional, talkshow inspiratif, atau festival mahasiswa yang menghadirkan narasumber kompeten di bidangnya.',
     status: 'Dalam Perencanaan',
     kategori: 'Departemen Dalam Negeri',
     img_dokumentasi: pelantikan,
@@ -213,7 +230,8 @@ const programKerja = [
   {
     id: 601,
     nama: 'Studi Banding',
-    deskripsi: 'Melakukan studi banding ke organisasi lain',
+    deskripsi:
+      'Sebuah program yang dilakukan untuk mempelajari sistem kerja organisasi lain sebagai bahan evaluasi dan peningkatan kualitas organisasi BEM FMIKOM. Studi banding ini juga dapat membuka peluang kerja sama antara organisasi dalam berbagai program atau kegiatan ke depan.',
     status: 'Selesai',
     kategori: 'Departemen Luar Negeri',
     img_dokumentasi: pelantikan,
@@ -221,7 +239,8 @@ const programKerja = [
   {
     id: 602,
     nama: 'Sosialisasi ke SMK/SMA',
-    deskripsi: 'Melakukan sosialisasi ke sekolah-sekolah',
+    deskripsi:
+      'Program ini bertujuan untuk memberikan informasi dan motivasi kepada siswa SMK/SMA tentang dunia perkuliahan, peran organisasi mahasiswa, serta manfaat aktif dalam kegiatan kemahasiswaan. Sosialisasi ini juga dapat menjadi ajang promosi bagi kampus untuk menarik calon mahasiswa baru.',
     status: 'Dalam Perencanaan',
     kategori: 'Departemen Luar Negeri',
     img_dokumentasi: pelantikan,
