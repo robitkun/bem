@@ -294,22 +294,22 @@ const dataPengurus = [
       {
         nama: 'Desty Bela Putri Oktaviani',
         jabatan: 'Kadep Ekraf',
-        img: bela,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Desty%20Bela%20Putri%20Oktaviani.jpg',
       },
       {
         nama: 'Biharus Sidqi',
         jabatan: 'Anggota Departemen Ekraf',
-        img: sidqi,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Biharus%20Sidqi.jpg',
       },
       {
         nama: 'Robbi Shurnii Al-Aqiilah',
         jabatan: 'Anggota Departemen Ekraf',
-        img: robi,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Robbi%20Shurnii%20Al-Aqiilah.jpg',
       },
       {
         nama: 'Dewi Santika',
         jabatan: 'Anggota Departemen Ekraf',
-        img: dewi,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Dewi%20Santika.jpg',
       },
     ],
   },
