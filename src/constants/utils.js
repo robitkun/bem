@@ -76,7 +76,8 @@ const programKerja = [
     deskripsi: 'Belajar Node MCU, Arduino, dan Flutter',
     status: 'Selesai',
     kategori: 'Teknologi',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/pelatihanBEM.jpg',
   },
   {
     id: 102,
@@ -84,7 +85,8 @@ const programKerja = [
     deskripsi: 'Meredesain website BEM FMIKOM',
     status: 'Sedang Berlangsung',
     kategori: 'Teknologi',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/pengelolaan%20web.png',
   },
   {
     id: 103,
@@ -116,7 +118,8 @@ const programKerja = [
     deskripsi: 'Rapat BPH & Divisi',
     status: 'Sedang Berlangsung',
     kategori: 'Gubernur dan Wakil',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/Rakor%20pers%2015%20mei%202024.jpg',
   },
   {
     id: 204,
@@ -180,7 +183,8 @@ const programKerja = [
     deskripsi: 'Mengadakan acara turba dan halal bihalal',
     status: 'Selesai',
     kategori: 'Departemen Dalam Negeri',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/halal%20bi%20halal.JPG',
   },
   {
     id: 502,
