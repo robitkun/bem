@@ -6,33 +6,6 @@ import ekrafIcon from './../assets/ekraf.png';
 import persIcon from './../assets/pers.png';
 import pelantikan from './../assets/about-bem.JPG';
 
-import mosa from '../assets/bph/Rheika Mosa Larasati.JPG';
-import nicky from '../assets/bph/Nicky Atikah Zhalifunnas.jpg';
-import jihan from '../assets/bph/Jihan Galuh Putri.jpg';
-import jeki from '../assets/bph/Achmad Muzaqi Jazuli.jpg';
-import shinta from '../assets/bph/Helwa Nuftiana Fadoil Putri.jpg';
-import helwa from '../assets/bph/Helwa Nuftiana Fadoil Putri.jpg';
-
-import imam from '../assets/tekno/Imam Wahyu Tri Sujianto.jpg';
-import robit from '../assets/tekno/Muhammad Robit Zainul.jpg';
-import ozah from '../assets/tekno/Ahmad Faozah.jpg';
-import lintang from '../assets/tekno/Lintang Kesit Haniko.jpg';
-
-import fandi from '../assets/luarnegri/Fandi Apriyanto Dimu.jpg';
-import aldika from '../assets/luarnegri/Aldika Gagah Prasetya.jpg';
-import fawaz from '../assets/luarnegri/Fawaz Ari Najib.jpg';
-import hasna from '../assets/luarnegri/Hasna Kamalia Hakim.jpg';
-import arif from '../assets/luarnegri/Muhammad Arif Rivandi.jpg';
-
-import bela from '../assets/ekraf/Desty Bela Putri Oktaviani.jpg';
-import sidqi from '../assets/ekraf/Biharus Sidqi.jpg';
-import robi from '../assets/ekraf/Robbi Shurnii Al-Aqiilah.jpg';
-import dewi from '../assets/ekraf/Dewi Santika.jpg';
-
-import yosan from '../assets/dalamnegri/Yossan Adi Santoso.jpg';
-import ersa from '../assets/dalamnegri/Ersa Kinanti.jpg';
-import nurul from '../assets/dalamnegri/Nurul Qonaah Salsabila.jpg';
-import putgay from '../assets/dalamnegri/Trio Putra Kusuma.jpg';
 const navigasi = [
   {
     title: 'Home',
@@ -259,32 +232,32 @@ const dataPengurus = [
       {
         nama: 'Rheika Mosa Larasati',
         jabatan: 'Ketua Gubernur BEM FMIKOM',
-        img: mosa,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Rheika%20Mosa%20Larasati.JPG',
       },
       {
         nama: 'Nicky Atikah Zhalifunnas',
         jabatan: 'Wakil Ketua Gubernur BEM FMIKOM',
-        img: nicky,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Nicky%20Atikah%20Zhalifunnas.jpg',
       },
       {
         nama: 'Jihan Galuh Putri',
         jabatan: 'Sekertatis I',
-        img: jihan,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Jihan%20Galuh%20Putri.jpg',
       },
       {
         nama: 'Achmad Muzaqi Jazuli',
         jabatan: 'Sekertaris II',
-        img: jeki,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Achmad%20Muzaqi%20Jazuli.jpg',
       },
       {
         nama: 'Shinta Fajar Cahyani',
         jabatan: 'Bendahara I',
-        img: shinta,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Shinta%20Fajar%20Cahyani.jpg',
       },
       {
         nama: 'Helwa Nuftiana Fadoil Putri',
         jabatan: 'Bendahara II',
-        img: helwa,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Helwa%20Nuftiana%20Fadoil%20Putri.jpg',
       },
     ],
   },
@@ -295,22 +268,22 @@ const dataPengurus = [
       {
         nama: 'Imam Wahyu Trisujianto',
         jabatan: 'Kadep Teknologi',
-        img: imam,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Imam%20Wahyu%20Tri%20Sujianto.jpg',
       },
       {
         nama: 'Muhammad Robit Zainul Haq',
         jabatan: 'Anggota Departemen Teknologi',
-        img: robit,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Muhammad%20Robit%20Zainul.jpg',
       },
       {
         nama: 'Ahmad Faozah',
         jabatan: 'Anggota Divisi Teknologi',
-        img: ozah,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Ahmad%20Faozah.jpg',
       },
       {
         nama: 'Lintang Kesit Haniko',
         jabatan: 'Anggota Divisi Teknologi',
-        img: lintang,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Lintang%20Kesit%20Haniko.jpg',
       },
     ],
   },
@@ -345,20 +318,24 @@ const dataPengurus = [
     divisi: 'Departemen Pers',
     pengurus: [
       {
-        nama: 'Ghani Arif Baehaqiw',
+        nama: 'Novinda Fitria Ningrum',
         jabatan: 'Ketua Departemen Pers',
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Novinda%20Fitria%20Ningrum%20.jpg',
       },
       {
-        nama: 'Rafli',
+        nama: 'Rafli Khalifah Rahman',
         jabatan: 'Anggota Departemen Pers',
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Rafli%20Khalifah%20Rahman.jpg',
       },
       {
-        nama: 'Anggita',
+        nama: 'Anggita Pratiwi',
         jabatan: 'Anggota Departemen Pers',
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Anggita%20Pratiwi%20.jpg',
       },
       {
-        nama: 'John Doe',
+        nama: 'Ghani Arif Bakalsukses',
         jabatan: ' Anggota Departemen Pers',
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//IMG-20241003-WA0017.jpg',
       },
     ],
   },
@@ -369,22 +346,27 @@ const dataPengurus = [
       {
         nama: 'Yossan Adi Santoso',
         jabatan: 'Kadep Dalam Negri',
-        img: yosan,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Yossan%20Adi%20Santoso.jpg',
+      },
+      {
+        nama: 'Ainur Rofikoh',
+        jabatan: 'Anggota Dalam Negri',
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Ainur%20Rofikoh.jpg',
       },
       {
         nama: 'Ersa Kinanti',
         jabatan: 'Anggota Departemen Dalam Negri',
-        img: ersa,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Ersa%20Kinanti.jpg',
       },
       {
         nama: 'Nurul Qonaah Salsabila',
         jabatan: 'Anggota Departemen Dalam Negri',
-        img: nurul,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Nurul%20Qonaah%20Salsabila.jpg',
       },
       {
         nama: 'Trio Putra Kusuma',
         jabatan: 'Anggota Departemen Dalam Negri',
-        img: putgay,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Trio%20Putra%20Kusuma.jpg',
       },
     ],
   },
@@ -395,27 +377,27 @@ const dataPengurus = [
       {
         nama: 'Fandi Apriyanto Dimu',
         jabatan: 'Kadep Luar Negri',
-        img: fandi,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Fandi%20Apriyanto%20Dimu.jpg',
       },
       {
         nama: 'Aldika Gagah Prasetya',
         jabatan: 'Anggota Departemen Luar Negri',
-        img: aldika,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Aldika%20Gagah%20Prasetya.jpg',
       },
       {
         nama: 'Fawaz Ari Najib',
         jabatan: 'Anggota Departemen Luar Negri',
-        img: fawaz,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Fawaz%20Ari%20Najib.jpg',
       },
       {
         nama: 'Hasna Kamalia Hakim',
         jabatan: 'Anggota Departemen Luar Negri',
-        img: hasna,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Hasna%20Kamalia%20Hakim.jpg',
       },
       {
         nama: 'Muhammad Arif Rivandi',
         jabatan: 'Anggota Departemen Luar Negri',
-        img: arif,
+        img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem//Muhammad%20Arif%20Rivandi.jpg',
       },
     ],
   },
