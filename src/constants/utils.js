@@ -78,7 +78,7 @@ const programKerja = [
     status: 'Selesai',
     kategori: 'Teknologi',
     img_dokumentasi:
-      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/pelatihanBEM.jpg',
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/pelatihanbareng.jpg',
   },
   {
     id: 102,
@@ -125,7 +125,7 @@ const programKerja = [
     status: 'Sedang Berlangsung',
     kategori: 'Gubernur dan Wakil',
     img_dokumentasi:
-      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/Rakor%20pers%2015%20mei%202024.jpg',
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/rakor.jpg',
   },
   {
     id: 204,
@@ -207,7 +207,8 @@ const programKerja = [
       'Kegiatan yang bertujuan untuk membangun hubungan yang lebih erat antar anggota organisasi melalui berbagai kegiatan seru seperti games, diskusi santai, dan sesi motivasi. Makrab ini menjadi wadah untuk memperkuat rasa kebersamaan agar komunikasi dalam organisasi dapat berjalan dengan lebih baik.',
     status: 'Selesai',
     kategori: 'Departemen Dalam Negeri',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/makrab.JPG',
   },
   {
     id: 503,
