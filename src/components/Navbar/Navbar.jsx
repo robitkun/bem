@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom';
-import './Navbar.css';
 import MenuToggle from './MenuToggle';
+import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { navigasi } from '../../constants/utils';
+import './Navbar.css';
+
 const Navbar = () => {
   const [open, isOpen] = useState(false);
   const [active, isActive] = useState(null);
@@ -64,7 +65,7 @@ const Navbar = () => {
         >
           <Link to="/" className="logo">
             <img
-              src="/logobemfmikom.png"
+              src="https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/logo_himpunan/bem.jpeg"
               alt="LogoBEMFMIKOM"
               width={60}
               height={60}

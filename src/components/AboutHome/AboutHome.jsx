@@ -1,5 +1,5 @@
 import { motion, useInView } from 'framer-motion';
-import aboutImage from './../../assets/about-bem.JPG';
+import aboutImage from '../../assets/about-bem.JPG';
 import './About.css';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';

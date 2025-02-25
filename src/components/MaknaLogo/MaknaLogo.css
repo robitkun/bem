@@ -9,16 +9,47 @@
   margin-bottom: 20px;
 }
 .makna-logo .content {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
   gap: 16px;
 }
 .makna-logo .content img {
-  margin-bottom: 20px;
-  width: 100%;
-  flex: 1;
+  width: 300px;
 }
-.makna-logo .content .timeline-makna {
-  flex: 1;
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .makna-logo .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .makna-logo .content img {
+    width: 200px;
+  }
+
+  .makna-logo h1 {
+    font-size: 24px;
+  }
+
+  /* Adjust Timeline for small screens */
+  .makna-logo .timeline-makna {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .makna-logo .content {
+    gap: 32px;
+  }
+
+  .makna-logo .content img {
+    width: 350px;
+  }
+
+  .makna-logo h1 {
+    font-size: 32px;
+  }
 }

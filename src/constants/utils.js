@@ -69,6 +69,23 @@ const pengurus = [
   },
 ];
 
+const himpunan = [
+  {
+    id: 101,
+    namaHimpunan: 'Himafortic',
+    img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/logo_himpunan/logoHIMA.png',
+  },
+  {
+    id: 102,
+    namaHimpunan: 'HMPS SI',
+    img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/logo_himpunan/logoSI.png',
+  },
+  {
+    id: 103,
+    namaHimpunan: 'Himatika',
+    img: 'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/logo_himpunan/logoMTK.png',
+  },
+];
 const programKerja = [
   {
     id: 101,
@@ -97,7 +114,8 @@ const programKerja = [
       'Sebuah acara tahunan yang mempertemukan mahasiswa dengan berbagai inovasi dan perkembangan terbaru di dunia teknologi. Dalam Expo Teknologi ini, akan ada demonstrasi perangkat IoT, pemaparan teknologi terbaru, serta showcase proyek-proyek mahasiswa yang berkaitan dengan bidang teknologi. Acara ini bertujuan untuk memberikan wawasan yang lebih luas tentang perkembangan teknologi serta memotivasi mahasiswa untuk terus berinovasi.',
     status: 'Selesai',
     kategori: 'Teknologi',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/expo-smk-almunawwaroh.jpg',
   },
   {
     id: 201,
@@ -106,7 +124,8 @@ const programKerja = [
       'Acara resmi yang menjadi awal dari masa kepengurusan BEM FMIKOM. Pelantikan ini bertujuan untuk meresmikan kepengurusan baru, memperkenalkan struktur organisasi, serta memberikan pemahaman tentang visi dan misi yang akan dijalankan dalam satu periode kepengurusan. Kegiatan ini juga menjadi momen penting untuk memperkuat komitmen setiap anggota dalam menjalankan tugas dan tanggung jawabnya.',
     status: 'Selesai',
     kategori: 'Gubernur dan Wakil',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/pelantikan.jpg',
   },
   {
     id: 202,
@@ -115,7 +134,8 @@ const programKerja = [
       'Rapat kerja merupakan agenda penting dalam organisasi yang dilakukan untuk menyusun rencana strategis dan program kerja BEM selama satu periode. Dalam rapat ini, setiap divisi akan memaparkan program-program unggulannya, mendiskusikan target yang ingin dicapai, serta memastikan adanya sinergi antar bidang dalam menjalankan kegiatan BEM.',
     status: 'Selesai',
     kategori: 'Gubernur dan Wakil',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/raker.jpg',
   },
   {
     id: 203,
@@ -126,69 +146,6 @@ const programKerja = [
     kategori: 'Gubernur dan Wakil',
     img_dokumentasi:
       'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/rakor.jpg',
-  },
-  {
-    id: 204,
-    nama: 'Diskusi Mengenai BEM',
-    deskripsi:
-      'Forum diskusi yang bertujuan untuk menganalisis urgensi dan peran BEM dalam dunia kemahasiswaan. Diskusi ini akan membahas bagaimana peran BEM dalam memperjuangkan aspirasi mahasiswa, memperkuat sistem organisasi, serta memberikan dampak positif bagi lingkungan kampus. Melalui diskusi ini, diharapkan muncul gagasan-gagasan baru yang dapat meningkatkan efektivitas peran BEM.',
-    status: 'Dalam Perencanaan',
-    kategori: 'Gubernur dan Wakil',
-    img_dokumentasi: pelantikan,
-  },
-  {
-    id: 205,
-    nama: 'Kotak Aspirasi',
-    deskripsi:
-      'Program ini bertujuan untuk memberikan ruang bagi mahasiswa agar dapat menyampaikan kritik, saran, dan aspirasi terkait berbagai permasalahan yang ada di kampus. Kotak aspirasi ini akan dikelola secara transparan, dan setiap masukan akan ditindaklanjuti dengan diskusi serta koordinasi dengan pihak yang terkait agar solusi yang diberikan dapat tepat sasaran.',
-    status: 'Dalam Perencanaan',
-    kategori: 'Gubernur dan Wakil',
-    img_dokumentasi: pelantikan,
-  },
-  {
-    id: 301,
-    nama: 'Masterplan Satu Periode',
-    deskripsi:
-      'Masterplan ini merupakan dokumen perencanaan jangka panjang yang dibuat oleh sekretaris untuk mengatur dan mengarahkan jalannya organisasi selama satu periode kepengurusan. Masterplan ini mencakup visi, misi, strategi kerja, serta indikator keberhasilan yang harus dicapai oleh setiap divisi dalam organisasi.',
-    status: 'Selesai',
-    kategori: 'Sekretaris',
-    img_dokumentasi: pelantikan,
-  },
-  {
-    id: 302,
-    nama: 'Pengarsipan Surat & Administrasi',
-    deskripsi:
-      'Sebuah sistem yang dirancang untuk mengelola berbagai dokumen administratif organisasi seperti surat masuk, surat keluar, serta dokumen penting lainnya. Dengan adanya sistem pengarsipan yang baik, setiap dokumen dapat diakses dengan mudah dan digunakan sebagai referensi dalam menjalankan program kerja organisasi.',
-    status: 'Sedang Berlangsung',
-    kategori: 'Sekretaris',
-    img_dokumentasi: pelantikan,
-  },
-  {
-    id: 303,
-    nama: 'Sosialisasi SOP',
-    deskripsi:
-      'Program ini bertujuan untuk memberikan pemahaman kepada seluruh anggota BEM mengenai Standar Operasional Prosedur (SOP) organisasi. Sosialisasi ini mencakup aturan kerja, mekanisme pelaporan, serta kode etik yang harus dipatuhi oleh setiap anggota dalam menjalankan tugasnya. Dengan adanya SOP yang jelas, diharapkan organisasi dapat berjalan dengan lebih efektif dan profesional.',
-    status: 'Selesai',
-    kategori: 'Sekretaris',
-    img_dokumentasi: pelantikan,
-  },
-  {
-    id: 401,
-    nama: 'Pengelolaan Kas',
-    deskripsi:
-      'Bendahara bertanggung jawab atas pengelolaan keuangan organisasi, termasuk mencatat setiap pemasukan dan pengeluaran kas. Program ini bertujuan untuk memastikan bahwa anggaran digunakan secara efisien dan sesuai dengan kebutuhan organisasi. Selain itu, laporan keuangan juga akan dibuat secara berkala agar transparansi dalam pengelolaan dana tetap terjaga.',
-    status: 'Selesai',
-    kategori: 'Bendahara',
-    img_dokumentasi: pelantikan,
-  },
-  {
-    id: 402,
-    nama: 'Arsip Pemasukan & Pengeluaran',
-    deskripsi:
-      'Sebuah sistem pencatatan keuangan yang berfungsi untuk mendokumentasikan setiap transaksi keuangan yang dilakukan oleh organisasi. Dengan adanya arsip yang tertata dengan baik, laporan keuangan dapat dibuat dengan lebih akurat dan dapat dipertanggungjawabkan dalam setiap evaluasi organisasi.',
-    status: 'Selesai',
-    kategori: 'Bendahara',
-    img_dokumentasi: pelantikan,
   },
   {
     id: 501,
@@ -217,7 +174,8 @@ const programKerja = [
       'Program pendampingan bagi mahasiswa yang sedang mempersiapkan skripsi. Dalam program ini, mahasiswa akan mendapatkan bimbingan dari dosen atau alumni yang telah menyelesaikan skripsi mereka. Selain itu, akan ada sesi sharing pengalaman dan strategi dalam menyelesaikan skripsi dengan efektif.',
     status: 'Selesai',
     kategori: 'Departemen Dalam Negeri',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/siap-skripsi.jpg',
   },
   {
     id: 504,
@@ -235,7 +193,8 @@ const programKerja = [
       'Sebuah program yang dilakukan untuk mempelajari sistem kerja organisasi lain sebagai bahan evaluasi dan peningkatan kualitas organisasi BEM FMIKOM. Studi banding ini juga dapat membuka peluang kerja sama antara organisasi dalam berbagai program atau kegiatan ke depan.',
     status: 'Selesai',
     kategori: 'Departemen Luar Negeri',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/studi-banding.jpg',
   },
   {
     id: 602,
@@ -244,7 +203,8 @@ const programKerja = [
       'Program ini bertujuan untuk memberikan informasi dan motivasi kepada siswa SMK/SMA tentang dunia perkuliahan, peran organisasi mahasiswa, serta manfaat aktif dalam kegiatan kemahasiswaan. Sosialisasi ini juga dapat menjadi ajang promosi bagi kampus untuk menarik calon mahasiswa baru.',
     status: 'Dalam Perencanaan',
     kategori: 'Departemen Luar Negeri',
-    img_dokumentasi: pelantikan,
+    img_dokumentasi:
+      'https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/proker-bem/sosialisasi-sma-k.jpg',
   },
 ];
 
@@ -426,4 +386,4 @@ const dataPengurus = [
     ],
   },
 ];
-export { navigasi, pengurus, programKerja, dataPengurus };
+export { navigasi, pengurus, programKerja, dataPengurus, himpunan };

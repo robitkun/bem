@@ -6,6 +6,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import logo from '/logo_footer.png';
 import './MaknaLogo.css';
 export default function MaknaLogoTimeline() {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
@@ -31,7 +32,7 @@ export default function MaknaLogoTimeline() {
     <div className="makna-logo">
       <h1>Makna Logo</h1>
       <div className="content">
-        <img src="/logobemfmikom.png" alt="logo" />
+        <img src={logo} alt={logo} />
         <div className="timeline-makna">
           <Timeline
             sx={{

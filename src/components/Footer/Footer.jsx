@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer_informasi">
           <div className="footer_logo">
             <img
-              src="/public/logo_footer.png"
+              src="https://tqpfmbrgebdtnojrlvne.supabase.co/storage/v1/object/public/bem/logo_himpunan/bem.jpeg"
               alt="Logo_BEM_FOOTER"
               width={60}
             />

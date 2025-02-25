@@ -7,6 +7,7 @@ import EventPage from './pages/EventPage/EventPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import './index.css';
 import PengurusPage from './pages/PengurusPage.jsx/PengurusPage';
+import DetailPage from './pages/DetailPage/DetailPage';
 const App = () => {
   return (
     <div>
@@ -16,6 +17,10 @@ const App = () => {
         <Route path="/tentang" element={<AboutPage />} />
         <Route path="/pengurus" element={<PengurusPage />} />
         <Route path="/event" element={<EventPage />} />
+        <Route
+          path="/program-kerja/detail-proker/:id"
+          element={<DetailPage />}
+        />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />

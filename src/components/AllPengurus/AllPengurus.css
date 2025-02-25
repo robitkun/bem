@@ -61,3 +61,70 @@
   object-fit: cover;
   border-radius: 50%;
 }
+@media (max-width: 768px) {
+  .pengurus {
+    padding: 50px 20px;
+  }
+
+  .team-container h1 {
+    font-size: 20px;
+  }
+
+  .leader-card,
+  .member-card {
+    width: 200px;
+    height: 250px;
+  }
+
+  .leader-card h2,
+  .member-card .text h3 {
+    font-size: 14px;
+  }
+
+  .leader-card p,
+  .member-card .text p {
+    font-size: 12px;
+  }
+
+  .member-container {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Large Devices */
+@media (min-width: 1024px) {
+  .pengurus {
+    padding: 100px 40px;
+  }
+
+  .team-container h1 {
+    font-size: 28px;
+  }
+
+  .leader-card,
+  .member-card {
+    width: 300px;
+    height: 350px;
+  }
+
+  .leader-card h2,
+  .member-card .text h3 {
+    font-size: 18px;
+  }
+
+  .leader-card p,
+  .member-card .text p {
+    font-size: 14px;
+  }
+
+  .profile-img {
+    width: 160px;
+    height: 160px;
+  }
+}

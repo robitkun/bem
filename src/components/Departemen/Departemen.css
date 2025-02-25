@@ -5,6 +5,10 @@
   align-items: center;
   justify-content: center;
   padding: 0 5%;
+  background: url('/src/assets/gggrain.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content {

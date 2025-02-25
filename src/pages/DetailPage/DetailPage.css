@@ -1,0 +1,46 @@
+.detail-page {
+  width: 100%;
+  height: auto;
+  padding: 150px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-content {
+  width: 600px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+}
+.detail-content .label-detail {
+  color: #ababab;
+}
+.detail-content h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+.detail-content .detail-proker img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.detail-content .detail-proker p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ababab;
+  margin-bottom: 50px;
+}
+
+.detail-content .detail-proker .detail-label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -55,7 +55,10 @@ const Proker = () => {
                       : el.deskripsi}
                   </p>
 
-                  <Link className="cta-link" to={`/program-kerja/${el.id}`}>
+                  <Link
+                    className="cta-link"
+                    to={`program-kerja/detail-proker/${el.id}`}
+                  >
                     <span>Lihat Detail</span>
                     <HiArrowSmRight />
                   </Link>
