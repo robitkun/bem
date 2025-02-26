@@ -1,7 +1,77 @@
-.event-page {
-  width: 100%;
-  height: 100vh;
+.event-container {
+  min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.event-content {
+  max-width: 800px;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  padding-top: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event-card {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.event-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.event-description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #444;
+}
+
+.event-gallery {
+  margin-top: 15px;
+}
+
+.gallery-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

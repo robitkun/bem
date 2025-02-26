@@ -1,0 +1,23 @@
+.list-event {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  border-bottom: 1px solid #fff;
+}
+.list-event img {
+  width: 80px;
+  height: auto;
+}
+.list-event h3 {
+  color: #fff;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .list-event {
+    justify-content: start;
+  }
+}

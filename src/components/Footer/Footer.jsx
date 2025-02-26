@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { BiLogoInstagram, BiLogoYoutube } from 'react-icons/bi';
 import { navigasi } from '../../constants/utils';
 import './Footer.css';
+import ListEvent from '../ListEvent/ListEvent';
 const Footer = () => {
   return (
     <div className="footer_container">
@@ -48,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="footer_event">
           <h3>Event Terbaru</h3>
-          <div className="event"></div>
+          <ListEvent />
         </div>
       </div>
       <p className="footer_copyright">
